@@ -1,0 +1,43 @@
+.user-details {
+	text-align: center;
+	border: 1px solid #444;
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.user-avatar {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+.reset-button {
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.repository-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.repository-list li {
+	border-bottom: 1px solid #444;
+	padding: 10px;
+}
+
+.repository-list li:last-child {
+	border-bottom: none;
+}
